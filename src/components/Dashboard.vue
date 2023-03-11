@@ -4,7 +4,7 @@
     <div v-if="userExists">
       Welcome {{ user.email }}. <br>
       Your account is {{ user.address }} with a balance of {{ balance }} ETH <br>
-      Destroy your account  by clicking 
+      Destroy your account  by clicking
       <a href="#" @click="destroyAccount">here</a>.
 
     </div>
